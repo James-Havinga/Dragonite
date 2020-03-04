@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{43F8AE37-361D-4E73-93B2-8640BF9F848B}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Dragonite.iOS</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>Dragonite.iOS</AssemblyName>
+    <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
+    <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchLink>None</MtouchLink>
+    <MtouchDebug>true</MtouchDebug>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>x86_64</MtouchArch>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>ARM64</MtouchArch>
+    <CodesignKey>Apple Development: jameshav132@gmail.com (3M3365L398)</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchLink>None</MtouchLink>
+    <MtouchInterpreter>-all</MtouchInterpreter>
+    <CodesignProvision>iOS Team Provisioning Profile: com.xamarin.Dragonite</CodesignProvision>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>ARM64</MtouchArch>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <None Include="Entitlements.plist" />
+    <None Include="Info.plist" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon1024.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon180.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon167.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon152.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon120.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon87.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon80.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon76.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon60.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon58.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon40.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon29.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\dragonite_logo.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\dragonite_logo.imageset\Dragonite_Logo.png" />
+    <ImageAsset Include="Assets.xcassets\dragon_home.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\dragon_home.imageset\Home_Dragon.png" />
+    <ImageAsset Include="Assets.xcassets\start_btn.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\start_btn.imageset\start_btn.png" />
+    <ImageAsset Include="Assets.xcassets\egg.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\egg.imageset\egg.png" />
+    <ImageAsset Include="Assets.xcassets\heat_egg.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\heat_egg.imageset\fire copy.png" />
+    <ImageAsset Include="Assets.xcassets\food.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\food.imageset\food.png" />
+    <ImageAsset Include="Assets.xcassets\train.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\train.imageset\train.png" />
+    <ImageAsset Include="Assets.xcassets\hunt.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\hunt.imageset\hunt.png" />
+    <ImageAsset Include="Assets.xcassets\sleep.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\sleep.imageset\sleep copy.png" />
+    <ImageAsset Include="Assets.xcassets\dragon_child_1.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\dragon_teen_2.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\dragon_youngadult_3.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\dragon_adult_4.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\dragon_child_1.imageset\dragon_1-1.png" />
+    <ImageAsset Include="Assets.xcassets\dragon_teen_2.imageset\dragon_2-1.png" />
+    <ImageAsset Include="Assets.xcassets\dragon_youngadult_3.imageset\dragon_3-1.png" />
+    <ImageAsset Include="Assets.xcassets\dragon_adult_4.imageset\dragon_4.png" />
+    <ImageAsset Include="Assets.xcassets\dragon_baby.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\dragon_baby.imageset\dragon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.3.0.908675" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\Dragonite\Dragonite.csproj">
+      <Project>{AEBEF0FC-C050-40A5-89D5-BF9050E16710}</Project>
+      <Name>Dragonite</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets.xcassets\dragonite_logo.imageset\" />
+    <Folder Include="Assets.xcassets\dragon_home.imageset\" />
+    <Folder Include="Assets.xcassets\start_btn.imageset\" />
+    <Folder Include="Assets.xcassets\egg.imageset\" />
+    <Folder Include="Assets.xcassets\heat_egg.imageset\" />
+    <Folder Include="Assets.xcassets\food.imageset\" />
+    <Folder Include="Assets.xcassets\train.imageset\" />
+    <Folder Include="Assets.xcassets\hunt.imageset\" />
+    <Folder Include="Assets.xcassets\sleep.imageset\" />
+    <Folder Include="Assets.xcassets\dragon_child_1.imageset\" />
+    <Folder Include="Assets.xcassets\dragon_teen_2.imageset\" />
+    <Folder Include="Assets.xcassets\dragon_youngadult_3.imageset\" />
+    <Folder Include="Assets.xcassets\dragon_adult_4.imageset\" />
+    <Folder Include="Assets.xcassets\dragon_baby.imageset\" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Dragonite.Grow_Dragon"
+             BackgroundColor="#29AB87">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Image VerticalOptions="Start"
+                   Margin="0, 20, 0, 0"
+                   Source="dragonite_logo"/>
+
+            <Label
+                Text="Level 1"
+                HorizontalOptions="Center"
+                VerticalOptions="Start"
+                TextColor="#333333"
+                FontAttributes="Bold"
+                FontSize="30"
+                x:Name="levelLabel"/>
+            <Label
+                Text="1000 xp"
+                HorizontalOptions="Center"
+                VerticalOptions="Start"
+                Margin="0,0,0,50"
+                x:Name="xpLabel"/>
+
+            <Image VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="Center"
+                   Margin="0,0,0,70"
+                   Source="dragon_baby"
+                   x:Name="dragonImage"/>
+
+            <Grid ColumnSpacing="8" HorizontalOptions="FillAndExpand" Margin="0,0,0,40">
+                <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="25*" />
+                        <ColumnDefinition Width="25*" />
+                        <ColumnDefinition Width="25*" />
+                        <ColumnDefinition Width="25*" />
+                </Grid.ColumnDefinitions>
+                    <ImageButton Source="food" Grid.Column="0" HorizontalOptions="FillAndExpand" Clicked="FeedDragon"/>
+                    <ImageButton Source="train" Grid.Column="1" HorizontalOptions="FillAndExpand"/>
+                    <ImageButton Source="hunt" Grid.Column="2" HorizontalOptions="FillAndExpand"/>
+                    <ImageButton Source="sleep" Grid.Column="3" HorizontalOptions="FillAndExpand"/>
+                </Grid>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
