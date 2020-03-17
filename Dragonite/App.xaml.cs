@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Dragonite.Helpers;
 
 namespace Dragonite
 {
@@ -10,7 +11,30 @@ namespace Dragonite
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            if (IsFristTime == "yes")
+            {
+                IsFristTime = "no";
+                MainPage = new MainPage();
+
+            }
+            else
+            {
+                MainPage = new Dragonite.Hatching_Egg();
+            }
+
+            
+        }
+
+        public string IsFristTime
+        {
+            get { return Settings.GeneralSettings; }
+            set
+            {
+                if (Settings.GeneralSettings == value)
+                    return;
+
+                Settings.GeneralSettings = value;
+            }
         }
 
         protected override void OnStart()
