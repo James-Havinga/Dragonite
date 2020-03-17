@@ -5,9 +5,17 @@ namespace Dragonite.Objects
     {
         public static int GetLevelFromXp(int xp)
         {
-            if (xp < 2000)
+            if (xp < 1000)
             {
                 return 0;
+            }
+            else if(xp == 1000)
+            {
+                return 0;
+            }
+            else if (xp < 2000)
+            {
+                return 1;
             }
             else if (xp == 2000)
             {
@@ -15,23 +23,27 @@ namespace Dragonite.Objects
             }
             else if(xp < 3000)
             {
-                return 1;
-            }
+                return 2;
+            } 
             else if(xp == 3000)
             {
                 return 2;
             }
             else if(xp < 4000)
             {
-                return 2;
+                return 3;
             }
             else if(xp == 4000)
             {
                 return 3;
             }
-            else if(xp > 4000)
+            else if(xp < 5000)
             {
-                return 3;
+                return 4;
+            }
+            else if(xp >= 5000)
+            {
+                return 4;
             }
             else
             {

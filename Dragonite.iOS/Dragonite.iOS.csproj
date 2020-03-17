@@ -131,16 +131,16 @@
     <ImageAsset Include="Assets.xcassets\hunt.imageset\hunt.png" />
     <ImageAsset Include="Assets.xcassets\sleep.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\sleep.imageset\sleep copy.png" />
-    <ImageAsset Include="Assets.xcassets\dragon_child_1.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\dragon_teen_2.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\dragon_youngadult_3.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\dragon_adult_4.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\dragon_child_1.imageset\dragon_1-1.png" />
-    <ImageAsset Include="Assets.xcassets\dragon_teen_2.imageset\dragon_2-1.png" />
-    <ImageAsset Include="Assets.xcassets\dragon_youngadult_3.imageset\dragon_3-1.png" />
-    <ImageAsset Include="Assets.xcassets\dragon_adult_4.imageset\dragon_4.png" />
-    <ImageAsset Include="Assets.xcassets\dragon_baby.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\dragon_baby.imageset\dragon.png" />
+    <ImageAsset Include="Assets.xcassets\dragon_0.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\dragon_0.imageset\dragon.png" />
+    <ImageAsset Include="Assets.xcassets\dragon_1.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\dragon_1.imageset\dragon_1-1.png" />
+    <ImageAsset Include="Assets.xcassets\dragon_2.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\dragon_2.imageset\dragon_2-1.png" />
+    <ImageAsset Include="Assets.xcassets\dragon_3.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\dragon_3.imageset\dragon_3-1.png" />
+    <ImageAsset Include="Assets.xcassets\dragon_4.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\dragon_4.imageset\dragon_4.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -171,10 +171,10 @@
     <Folder Include="Assets.xcassets\train.imageset\" />
     <Folder Include="Assets.xcassets\hunt.imageset\" />
     <Folder Include="Assets.xcassets\sleep.imageset\" />
-    <Folder Include="Assets.xcassets\dragon_child_1.imageset\" />
-    <Folder Include="Assets.xcassets\dragon_teen_2.imageset\" />
-    <Folder Include="Assets.xcassets\dragon_youngadult_3.imageset\" />
-    <Folder Include="Assets.xcassets\dragon_adult_4.imageset\" />
-    <Folder Include="Assets.xcassets\dragon_baby.imageset\" />
+    <Folder Include="Assets.xcassets\dragon_0.imageset\" />
+    <Folder Include="Assets.xcassets\dragon_1.imageset\" />
+    <Folder Include="Assets.xcassets\dragon_2.imageset\" />
+    <Folder Include="Assets.xcassets\dragon_3.imageset\" />
+    <Folder Include="Assets.xcassets\dragon_4.imageset\" />
   </ItemGroup>
 </Project>

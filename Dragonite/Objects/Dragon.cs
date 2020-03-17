@@ -16,7 +16,7 @@ namespace Dragonite.Objects
                 }
                 else
                 {
-                    return DragonState.baby;
+                    return DragonState.healthy;
                 }
             }
             set

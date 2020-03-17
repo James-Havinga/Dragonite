@@ -3,11 +3,8 @@ namespace Dragonite.Objects
 {
     public enum DragonState
     {
-        baby,
-        child,
-        teen,
-        youngadult,
-        adult
+        healthy,
+        dead
     }
     class DragonStates
     {
@@ -15,23 +12,14 @@ namespace Dragonite.Objects
         {
             switch (dragonState)
             {
-                case DragonState.baby:
-                    return "baby";
+                case DragonState.healthy:
+                    return "healthy";
 
-                case DragonState.child:
-                    return "child";
-
-                case DragonState.teen:
-                    return "teen";
-
-                case DragonState.youngadult:
-                    return "youngadult";
-
-                case DragonState.adult:
-                    return "adult";
+                case DragonState.dead:
+                    return "dead";
 
                 default:
-                    return "baby";
+                    return "healthy";
             }
         }
 
@@ -39,23 +27,14 @@ namespace Dragonite.Objects
         {
             switch (dragonString)
             {
-                case "baby":
-                    return DragonState.baby;
+                case "healthy":
+                    return DragonState.healthy;
 
-                case "child":
-                    return DragonState.child;
-
-                case "teen":
-                    return DragonState.teen;
-
-                case "youngadult":
-                    return DragonState.youngadult;
-
-                case "adult":
-                    return DragonState.adult;
+                case "dead":
+                    return DragonState.dead;
 
                 default:
-                    return DragonState.baby;
+                    return DragonState.healthy;
             }
         }
     }
