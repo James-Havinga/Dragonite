@@ -68,10 +68,10 @@ namespace Dragonite
             await DisplayAlert("Oh No", "Your Dragon has Died", "New Dragon");
 
             dragon.Xp = 0;
-            dragon.CurrentDragonState= DragonState.healthy;
-            ResetTimer();
-
+            dragon.CurrentDragonState = DragonState.healthy;
             updateUI();
+            ResetTimer();
+            
         }
 
         private void StartTimer()

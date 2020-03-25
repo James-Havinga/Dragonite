@@ -3,36 +3,50 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Dragonite.Hatching_Egg"
              BackgroundColor="#29AB87">
-    <ContentPage.Content>
+
+    <RelativeLayout>
+        <Image Source="egg_background"
+               RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width}"
+               RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height}"
+               />
+        <Grid RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width}"
+              RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height}">
+
+
         <StackLayout VerticalOptions="Start">
             <Image VerticalOptions="CenterAndExpand"
-                   Margin="0, 20, 0, 0"
+                   Margin="0, 30, 0, 0"
                    Source="dragonite_logo"/>
-            <Image VerticalOptions="CenterAndExpand"
-                   Source="egg"
-                   Margin="0, 80, 0, 0"/>
-            <Label Text="Tempreature : 15 C"
-                   VerticalOptions="CenterAndExpand"
-                   HorizontalOptions="Center"/>
-            <Label Text="Looks like your egg"
+                
+          
+            <Label 
                    VerticalOptions="CenterAndExpand"
                    HorizontalOptions="Center"
-                   FontSize="20"
-                   Margin="0, 80, 0, 0"/>
-            <Label Text="is getting old"
-                   VerticalOptions="CenterAndExpand"
-                   HorizontalOptions="Center"
-                   FontSize="20"/>
-            <Label Text="warm it up !"
-                   VerticalOptions="CenterAndExpand"
-                   HorizontalOptions="Center"
-                   FontSize="20"/>
+                   Margin="0,440,0,0"
+                   x:Name="tempLabel"/>
+            
             <ImageButton
                     HorizontalOptions="Center"
-                    VerticalOptions="CenterAndExpand"
+                    VerticalOptions="End"
                     Source="heat_egg"
-                    Margin="0, 30, 0, 0"
-                    Clicked="Grow_Dragon"/>
+                    Margin="0, 0, 0, 0"
+                    Clicked="WarmEgg"/>
+
         </StackLayout>
-    </ContentPage.Content>
+  
+
+
+
+
+             </Grid>
+
+    </RelativeLayout>
+
+
+
+   
+
+
+
+    
 </ContentPage>

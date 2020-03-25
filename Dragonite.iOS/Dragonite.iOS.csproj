@@ -119,8 +119,6 @@
     <ImageAsset Include="Assets.xcassets\dragon_home.imageset\Home_Dragon.png" />
     <ImageAsset Include="Assets.xcassets\start_btn.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\start_btn.imageset\start_btn.png" />
-    <ImageAsset Include="Assets.xcassets\egg.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\egg.imageset\egg.png" />
     <ImageAsset Include="Assets.xcassets\heat_egg.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\heat_egg.imageset\fire copy.png" />
     <ImageAsset Include="Assets.xcassets\food.imageset\Contents.json" />
@@ -132,14 +130,19 @@
     <ImageAsset Include="Assets.xcassets\sleep.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\sleep.imageset\sleep copy.png" />
     <ImageAsset Include="Assets.xcassets\dragon_0.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\dragon_0.imageset\dragon.png" />
     <ImageAsset Include="Assets.xcassets\dragon_1.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\dragon_1.imageset\dragon_1-1.png" />
     <ImageAsset Include="Assets.xcassets\dragon_2.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\dragon_2.imageset\dragon_2-1.png" />
     <ImageAsset Include="Assets.xcassets\dragon_3.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\dragon_3.imageset\dragon_3-1.png" />
     <ImageAsset Include="Assets.xcassets\dragon_4.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\egg_background.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\egg_background.imageset\egg.png" />
+    <ImageAsset Include="Assets.xcassets\egg_background.imageset\egg_background.png" />
+    <ImageAsset Include="Assets.xcassets\dragon_background.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\dragon_background.imageset\dragon_background.png" />
+    <ImageAsset Include="Assets.xcassets\dragon_0.imageset\dragon-1.png" />
+    <ImageAsset Include="Assets.xcassets\dragon_1.imageset\dragon_1.png" />
+    <ImageAsset Include="Assets.xcassets\dragon_2.imageset\dragon_2-1.png" />
+    <ImageAsset Include="Assets.xcassets\dragon_3.imageset\dragon_3-1.png" />
     <ImageAsset Include="Assets.xcassets\dragon_4.imageset\dragon_4.png" />
   </ItemGroup>
   <ItemGroup>
@@ -168,7 +171,6 @@
     <Folder Include="Assets.xcassets\dragonite_logo.imageset\" />
     <Folder Include="Assets.xcassets\dragon_home.imageset\" />
     <Folder Include="Assets.xcassets\start_btn.imageset\" />
-    <Folder Include="Assets.xcassets\egg.imageset\" />
     <Folder Include="Assets.xcassets\heat_egg.imageset\" />
     <Folder Include="Assets.xcassets\food.imageset\" />
     <Folder Include="Assets.xcassets\train.imageset\" />
@@ -179,5 +181,7 @@
     <Folder Include="Assets.xcassets\dragon_2.imageset\" />
     <Folder Include="Assets.xcassets\dragon_3.imageset\" />
     <Folder Include="Assets.xcassets\dragon_4.imageset\" />
+    <Folder Include="Assets.xcassets\egg_background.imageset\" />
+    <Folder Include="Assets.xcassets\dragon_background.imageset\" />
   </ItemGroup>
 </Project>

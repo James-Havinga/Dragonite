@@ -3,9 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Dragonite.Grow_Dragon"
              BackgroundColor="#29AB87">
-    <ContentPage.Content>
-        <StackLayout>
 
+
+    <RelativeLayout>
+        <Image Source="dragon_background"
+               RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width}"
+               RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height}"
+               />
+        <Grid RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width}"
+              RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height}">
+
+        <StackLayout>
             <Image VerticalOptions="Start"
                    Margin="0, 20, 0, 0"
                    Source="dragonite_logo"/>
@@ -27,7 +35,7 @@
 
             <Image VerticalOptions="CenterAndExpand"
                    HorizontalOptions="Center"
-                   Margin="0,0,0,70"
+                   Margin="0,0,0,100"
                    Source="dragon_baby"
                    x:Name="dragonImage"/>
 
@@ -45,5 +53,11 @@
                 </Grid>
 
         </StackLayout>
-    </ContentPage.Content>
+
+            </Grid>
+
+    </RelativeLayout>
+
+            
+
 </ContentPage>

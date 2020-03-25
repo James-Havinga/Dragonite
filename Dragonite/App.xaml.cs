@@ -19,7 +19,7 @@ namespace Dragonite
             }
             else
             {
-                MainPage = new Dragonite.Hatching_Egg();
+                MainPage = new Dragonite.Grow_Dragon();
             }
 
             
