@@ -4,6 +4,7 @@ using System.ComponentModel;
 using Dragonite.Objects;
 using Xamarin.Forms;
 using System.Timers;
+using System.Threading.Tasks;
 
 
 namespace Dragonite
@@ -115,6 +116,32 @@ namespace Dragonite
                 dragon.CurrentDragonState = newDragonState;
                 updateUI();
             }
+        }
+
+        async void Sleep(System.Object sender, System.EventArgs e)
+        {
+            background.Source = "night_background";
+            xpLabel.TextColor = Color.White;
+            levelLabel.TextColor = Color.White;
+            await Task.Delay(10000);
+            background.Source = "dragon_background";
+            xpLabel.TextColor = Color.Black;
+            levelLabel.TextColor = Color.Black;
+
+        }
+
+        async void Hunt(System.Object sender, System.EventArgs e)
+        {
+            int dragonXp = dragon.Xp;
+
+            dragon.giveFood();
+
+            background.Source = "hunt_background";
+            dragonImage.Source = "none";
+            await Task.Delay(10000);
+            background.Source = "dragon_background";
+            dragonImage.Source = "dragon_" + Level.GetLevelFromXp(dragonXp).ToString();
+
         }
     }
 }

@@ -144,6 +144,10 @@
     <ImageAsset Include="Assets.xcassets\dragon_2.imageset\dragon_2-1.png" />
     <ImageAsset Include="Assets.xcassets\dragon_3.imageset\dragon_3-1.png" />
     <ImageAsset Include="Assets.xcassets\dragon_4.imageset\dragon_4.png" />
+    <ImageAsset Include="Assets.xcassets\night_background.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\night_background.imageset\night_background.png" />
+    <ImageAsset Include="Assets.xcassets\hunt_background.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\hunt_background.imageset\hunt_background.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -183,5 +187,7 @@
     <Folder Include="Assets.xcassets\dragon_4.imageset\" />
     <Folder Include="Assets.xcassets\egg_background.imageset\" />
     <Folder Include="Assets.xcassets\dragon_background.imageset\" />
+    <Folder Include="Assets.xcassets\night_background.imageset\" />
+    <Folder Include="Assets.xcassets\hunt_background.imageset\" />
   </ItemGroup>
 </Project>

@@ -9,6 +9,7 @@
         <Image Source="dragon_background"
                RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width}"
                RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height}"
+               x:Name="background"
                />
         <Grid RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width}"
               RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height}">
@@ -22,7 +23,6 @@
                 Text="Level 1"
                 HorizontalOptions="Center"
                 VerticalOptions="Start"
-                TextColor="#333333"
                 FontAttributes="Bold"
                 FontSize="30"
                 x:Name="levelLabel"/>
@@ -48,8 +48,8 @@
                 </Grid.ColumnDefinitions>
                     <ImageButton Source="food" Grid.Column="0" HorizontalOptions="FillAndExpand" Clicked="FeedDragon"/>
                     <ImageButton Source="train" Grid.Column="1" HorizontalOptions="FillAndExpand"/>
-                    <ImageButton Source="hunt" Grid.Column="2" HorizontalOptions="FillAndExpand"/>
-                    <ImageButton Source="sleep" Grid.Column="3" HorizontalOptions="FillAndExpand"/>
+                    <ImageButton Source="hunt" Grid.Column="2" HorizontalOptions="FillAndExpand" Clicked="Hunt"/>
+                    <ImageButton Source="sleep" Grid.Column="3" HorizontalOptions="FillAndExpand" Clicked="Sleep"/>
                 </Grid>
 
         </StackLayout>
