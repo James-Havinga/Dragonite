@@ -148,6 +148,14 @@
     <ImageAsset Include="Assets.xcassets\night_background.imageset\night_background.png" />
     <ImageAsset Include="Assets.xcassets\hunt_background.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\hunt_background.imageset\hunt_background.png" />
+    <ImageAsset Include="Assets.xcassets\200xp_btn.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\200xp_btn.imageset\200xp_btn copy.png" />
+    <ImageAsset Include="Assets.xcassets\breathe_fire.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\breathe_fire.imageset\fire.png" />
+    <ImageAsset Include="Assets.xcassets\flying.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\flying.imageset\fantasy.png" />
+    <ImageAsset Include="Assets.xcassets\strength.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\strength.imageset\dumbbell.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -162,6 +170,9 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
     <PackageReference Include="Xam.Plugins.Settings">
       <Version>3.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="Rg.Plugins.Popup">
+      <Version>1.2.0.223</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
@@ -189,5 +200,9 @@
     <Folder Include="Assets.xcassets\dragon_background.imageset\" />
     <Folder Include="Assets.xcassets\night_background.imageset\" />
     <Folder Include="Assets.xcassets\hunt_background.imageset\" />
+    <Folder Include="Assets.xcassets\200xp_btn.imageset\" />
+    <Folder Include="Assets.xcassets\breathe_fire.imageset\" />
+    <Folder Include="Assets.xcassets\flying.imageset\" />
+    <Folder Include="Assets.xcassets\strength.imageset\" />
   </ItemGroup>
 </Project>

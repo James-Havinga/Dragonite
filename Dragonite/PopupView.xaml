@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Dragonite.PopupView"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup">
+             
+    <StackLayout Margin="12"
+                 Padding="24"
+                 Spacing="24"
+                 BackgroundColor="White"
+                 HorizontalOptions="Center"
+                 VerticalOptions="Center">
+
+        <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Image Source="breathe_fire" WidthRequest="20" Grid.Column="0"/>
+        <Label Text="Fire Breathing" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Start" />
+        <ImageButton Source="200xp_btn" WidthRequest="45" Grid.Column="2"/>
+    </Grid>
+        <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Image Source="flying" WidthRequest="20" Grid.Column="0"/>
+        <Label Text="Flight Training" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Start" />
+        <ImageButton Source="200xp_btn" WidthRequest="45" Grid.Column="2"/>
+    </Grid>
+        <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Image Source="strength" WidthRequest="20" Grid.Column="0"/>
+        <Label Text="Strength" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Start" />
+        <ImageButton Source="200xp_btn" WidthRequest="45" Grid.Column="2"/>
+    </Grid>
+    </StackLayout>
+</pages:PopupPage>

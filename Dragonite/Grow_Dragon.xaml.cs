@@ -5,6 +5,8 @@ using Dragonite.Objects;
 using Xamarin.Forms;
 using System.Timers;
 using System.Threading.Tasks;
+using Rg.Plugins.Popup.Services;
+
 
 
 namespace Dragonite
@@ -142,6 +144,11 @@ namespace Dragonite
             background.Source = "dragon_background";
             dragonImage.Source = "dragon_" + Level.GetLevelFromXp(dragonXp).ToString();
 
+        }
+
+        void Train(System.Object sender, System.EventArgs e)
+        {
+            PopupNavigation.Instance.PushAsync(new PopupView());
         }
     }
 }
