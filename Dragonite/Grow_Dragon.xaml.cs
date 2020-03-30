@@ -26,7 +26,7 @@ namespace Dragonite
             updateUI();
         }
 
-        void updateUI()
+        public void updateUI()
         {
             int dragonXp = dragon.Xp;
 

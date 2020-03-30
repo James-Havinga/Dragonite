@@ -52,7 +52,7 @@ namespace Dragonite.Objects
 
         public void giveFood()
         {
-            Xp += 500;
+            Xp += 200;
         }
 
         

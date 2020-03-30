@@ -1,10 +1,10 @@
 ﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{43F8AE37-361D-4E73-93B2-8640BF9F848B}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Dragonite/PopupView.xaml" Line="45" Column="19" />
-      <File FileName="Dragonite/PopupView.xaml.cs" Line="10" Column="27" />
-      <File FileName="Dragonite.Android/MainActivity.cs" Line="22" Column="67" />
-      <File FileName="Dragonite.iOS/AppDelegate.cs" Line="25" Column="43" />
+      <File FileName="Dragonite/PopupView.xaml" Line="41" Column="101" />
+      <File FileName="Dragonite/PopupView.xaml.cs" Line="14" Column="9" />
+      <File FileName="Dragonite/Grow_Dragon.xaml.cs" Line="26" Column="24" />
+      <File FileName="Dragonite/Objects/Dragon.cs" Line="53" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,9 +12,12 @@
           <Node name="Dragonite" expanded="True">
             <Node name="Dragonite" expanded="True">
               <Node name="Helpers" expanded="True" />
+              <Node name="Objects" expanded="True" />
               <Node name="Grow_Dragon.xaml" expanded="True" />
               <Node name="Hatching_Egg.xaml" expanded="True" />
-              <Node name="PopupView.xaml" expanded="True" selected="True" />
+              <Node name="PopupView.xaml" expanded="True">
+                <Node name="PopupView.xaml.cs" selected="True" />
+              </Node>
             </Node>
             <Node name="Dragonite.iOS" expanded="True" />
           </Node>
