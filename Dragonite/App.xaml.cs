@@ -19,10 +19,10 @@ namespace Dragonite
             }
             else
             {
-                MainPage = new Dragonite.Grow_Dragon();
+                MainPage = new Dragonite.MainPage();
             }
 
-            
+
         }
 
         public string IsFristTime

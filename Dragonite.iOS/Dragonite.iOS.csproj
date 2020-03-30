@@ -156,6 +156,14 @@
     <ImageAsset Include="Assets.xcassets\flying.imageset\fantasy.png" />
     <ImageAsset Include="Assets.xcassets\strength.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\strength.imageset\dumbbell.png" />
+    <ImageAsset Include="Assets.xcassets\intro_1.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\intro_1.imageset\intro_1.png" />
+    <ImageAsset Include="Assets.xcassets\intro_2.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\intro_2.imageset\intro_2.png" />
+    <ImageAsset Include="Assets.xcassets\intro_3.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\intro_3.imageset\intro_3.png" />
+    <ImageAsset Include="Assets.xcassets\intro_4.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\intro_4.imageset\intro_4.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -204,5 +212,9 @@
     <Folder Include="Assets.xcassets\breathe_fire.imageset\" />
     <Folder Include="Assets.xcassets\flying.imageset\" />
     <Folder Include="Assets.xcassets\strength.imageset\" />
+    <Folder Include="Assets.xcassets\intro_1.imageset\" />
+    <Folder Include="Assets.xcassets\intro_2.imageset\" />
+    <Folder Include="Assets.xcassets\intro_3.imageset\" />
+    <Folder Include="Assets.xcassets\intro_4.imageset\" />
   </ItemGroup>
 </Project>

@@ -125,7 +125,9 @@ namespace Dragonite
             background.Source = "night_background";
             xpLabel.TextColor = Color.White;
             levelLabel.TextColor = Color.White;
+            dragon.giveFood();
             await Task.Delay(10000);
+            updateUI();
             background.Source = "dragon_background";
             xpLabel.TextColor = Color.Black;
             levelLabel.TextColor = Color.Black;
@@ -141,6 +143,7 @@ namespace Dragonite
             background.Source = "hunt_background";
             dragonImage.Source = "none";
             await Task.Delay(10000);
+            updateUI();
             background.Source = "dragon_background";
             dragonImage.Source = "dragon_" + Level.GetLevelFromXp(dragonXp).ToString();
 
