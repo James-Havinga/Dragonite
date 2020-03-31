@@ -164,6 +164,7 @@
     <ImageAsset Include="Assets.xcassets\intro_3.imageset\intro_3.png" />
     <ImageAsset Include="Assets.xcassets\intro_4.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\intro_4.imageset\intro_4.png" />
+    <ImageAsset Include="Assets.xcassets\heat_egg.imageset\heat_egg.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
