@@ -46,10 +46,10 @@
                         <ColumnDefinition Width="25*" />
                         <ColumnDefinition Width="25*" />
                 </Grid.ColumnDefinitions>
-                    <ImageButton Source="food" Grid.Column="0" HorizontalOptions="FillAndExpand" Clicked="FeedDragon"/>
-                    <ImageButton Source="train" Grid.Column="1" HorizontalOptions="FillAndExpand" Clicked="Train"/>
-                    <ImageButton Source="hunt" Grid.Column="2" HorizontalOptions="FillAndExpand" Clicked="Hunt"/>
-                    <ImageButton Source="sleep" Grid.Column="3" HorizontalOptions="FillAndExpand" Clicked="Sleep"/>
+                    <ImageButton Source="food" Grid.Column="0" BackgroundColor="Transparent" VerticalOptions="End" HorizontalOptions="FillAndExpand" Clicked="FeedDragon"/>
+                    <ImageButton Source="train" Grid.Column="1" BackgroundColor="Transparent" VerticalOptions="End" HorizontalOptions="FillAndExpand" Clicked="Train"/>
+                    <ImageButton Source="hunt" Grid.Column="2" BackgroundColor="Transparent" VerticalOptions="End" HorizontalOptions="FillAndExpand" Clicked="Hunt"/>
+                    <ImageButton Source="sleep" Grid.Column="3" BackgroundColor="Transparent" VerticalOptions="End" HorizontalOptions="FillAndExpand" Clicked="Sleep"/>
                 </Grid>
 
         </StackLayout>

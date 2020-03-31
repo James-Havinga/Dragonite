@@ -8,6 +8,8 @@ namespace Dragonite.Objects
     }
     class DragonStates
     {
+
+        // Difffernt possible states the dragon can have
         public static string GetDragonString(DragonState dragonState)
         {
             switch (dragonState)

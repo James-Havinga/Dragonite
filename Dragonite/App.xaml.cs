@@ -11,6 +11,7 @@ namespace Dragonite
         {
             InitializeComponent();
 
+            //Checking to see if its a frist time user 
             if (IsFristTime == "yes")
             {
                 IsFristTime = "no";
@@ -19,7 +20,7 @@ namespace Dragonite
             }
             else
             {
-                MainPage = new Dragonite.MainPage();
+                MainPage = new Dragonite.Hatching_Egg();
             }
 
 

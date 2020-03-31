@@ -26,6 +26,7 @@ namespace Dragonite
             updateUI();
         }
 
+        // Displaying the level and the amount of xp of the dragon
         public void updateUI()
         {
             int dragonXp = dragon.Xp;
@@ -41,6 +42,7 @@ namespace Dragonite
                 xpLabel.Text = dragonXp.ToString();
             }
 
+            //Displaying the correct dragon image based on level
 
             Device.BeginInvokeOnMainThread(async () =>
             {
@@ -55,7 +57,7 @@ namespace Dragonite
             
         }
 
-
+        // Feeding dragon fucntionality
 
         void FeedDragon(System.Object sender, System.EventArgs e)
         {
@@ -66,6 +68,7 @@ namespace Dragonite
             ResetTimer();
         }
 
+        //What must happen when the dragon dies
         private async void DragonDied()
         {
             await DisplayAlert("Oh No", "Your Dragon has Died", "New Dragon");
@@ -74,7 +77,9 @@ namespace Dragonite
             dragon.CurrentDragonState = DragonState.healthy;
             updateUI();
             ResetTimer();
-            
+            await this.Navigation.PushModalAsync(new Hatching_Egg());
+
+
         }
 
         private void StartTimer()
@@ -94,6 +99,7 @@ namespace Dragonite
             StartTimer();
         }
 
+        //Changing the dragon state after certain times
         private void UpdateTimedData(object sender, ElapsedEventArgs e)
         {
             TimeSpan timeElapsed = e.SignalTime - timeKeeper.StartTime;
@@ -120,13 +126,15 @@ namespace Dragonite
             }
         }
 
+        //Sleep functionality 
         async void Sleep(System.Object sender, System.EventArgs e)
         {
             background.Source = "night_background";
             xpLabel.TextColor = Color.White;
             levelLabel.TextColor = Color.White;
             dragon.giveFood();
-            await Task.Delay(10000);
+            ResetTimer();
+            await Task.Delay(5000);
             updateUI();
             background.Source = "dragon_background";
             xpLabel.TextColor = Color.Black;
@@ -134,21 +142,23 @@ namespace Dragonite
 
         }
 
+        //Hunt Functionality 
         async void Hunt(System.Object sender, System.EventArgs e)
         {
             int dragonXp = dragon.Xp;
 
             dragon.giveFood();
-
+            ResetTimer();
             background.Source = "hunt_background";
             dragonImage.Source = "none";
-            await Task.Delay(10000);
+            await Task.Delay(5000);
             updateUI();
             background.Source = "dragon_background";
             dragonImage.Source = "dragon_" + Level.GetLevelFromXp(dragonXp).ToString();
 
         }
 
+        //Training fucntionality by opening a popup when the button is clicked
         void Train(System.Object sender, System.EventArgs e)
         {
             PopupNavigation.Instance.PushAsync(new PopupView());

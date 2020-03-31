@@ -65,7 +65,7 @@
               RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height}">
 
             <StackLayout>
-                <ImageButton VerticalOptions="EndAndExpand" Margin="0,0,0,20" Source="start_btn" Clicked="Start_Hatching"/>
+                <ImageButton VerticalOptions="EndAndExpand" BackgroundColor="Transparent" WidthRequest="100" Margin="0,0,0,20" Source="start_btn" Clicked="Start_Hatching"/>
             </StackLayout>
 
             </Grid>

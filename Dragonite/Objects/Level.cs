@@ -3,6 +3,8 @@ namespace Dragonite.Objects
 {
     public class Level
     {
+
+        //Calculating the level of the dragon based on how much xp it has
         public static int GetLevelFromXp(int xp)
         {
             if (xp < 1000)

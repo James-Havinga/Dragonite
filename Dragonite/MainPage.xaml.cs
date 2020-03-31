@@ -17,7 +17,7 @@ namespace Dragonite
         {
             InitializeComponent();
         }
-
+        //Start button sending them to the egg hatching page 
         async void Start_Hatching(System.Object sender, System.EventArgs e)
         {
             await Navigation.PushModalAsync(new Hatching_Egg());

@@ -7,6 +7,8 @@ namespace Dragonite.Objects
         const string eggStateKey = "eggState";
         const string eggXpKey = "eggXp";
 
+
+        //Getting the xp of the egg which is the tempreature of the egg
         public int Xp
         {
             get
@@ -27,14 +29,13 @@ namespace Dragonite.Objects
             }
         }
 
+
+        // warming egg 
         public void warmEgg()
         {
             Xp += 5;
         }
 
-        public void coolEgg()
-        {
-            Xp -= 1;
-        }
+      
     }
 }

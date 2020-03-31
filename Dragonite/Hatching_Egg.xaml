@@ -28,6 +28,8 @@
             <ImageButton
                     HorizontalOptions="Center"
                     VerticalOptions="End"
+                    WidthRequest="160"
+                    BackgroundColor="Transparent"
                     Source="heat_egg"
                     Margin="0, 0, 0, 0"
                     Clicked="WarmEgg"/>

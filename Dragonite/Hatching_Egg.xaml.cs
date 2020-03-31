@@ -32,17 +32,15 @@ namespace Dragonite
 
         }
 
-
-
-
-
+        //function to go to next page after a certain time ie: the egg hatching
         protected async override void OnAppearing()
         {
             base.OnAppearing();
-            await Task.Delay(20000);
+            await Task.Delay(10000);
             await this.Navigation.PushModalAsync(new Grow_Dragon());
         }
 
+        // displaying the tempreature of the egg
         void UpdateUI()
         {
 
@@ -63,48 +61,16 @@ namespace Dragonite
 
         } 
 
+
+        // button to warm the egg
         void WarmEgg(System.Object sender, System.EventArgs e)
         {
             egg.warmEgg();
             UpdateUI();
-            ResetTimer();
+          
         }
 
-        private void StartTimer()
-        {
-            timer = new Timer();
-
-            timer.Interval = 1000;
-            timer.Enabled = true;
-            timer.Elapsed += UpdateTimedData;
-            timer.Start();
-        }
-
-        private void ResetTimer()
-        {
-            timeKeeper.StartTime = DateTime.Now;
-
-            StartTimer();
-        }
-
-        private void UpdateTimedData(object sender, ElapsedEventArgs e)
-        {
-            TimeSpan timeElapsed = e.SignalTime - timeKeeper.StartTime;
-
-            if (timeElapsed.TotalSeconds > 2)
-            {
-
-                Console.WriteLine("2 seconds has passed");
-                egg.coolEgg();
-
-                UpdateUI();
-
-                ResetTimer();
-
-             
-            }
-           
-        }
+        
 
     }
       

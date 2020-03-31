@@ -6,6 +6,8 @@ namespace Dragonite.Objects
         const string dragonStateKey = "dragonState";
         const string dragonXpKey = "dragonXp";
 
+
+        //Getting the current dragon state if there  is one or jsut giving one if there isnt
         public DragonState CurrentDragonState
         {
             get
@@ -25,6 +27,8 @@ namespace Dragonite.Objects
             }
         }
 
+
+        //getting the xp of the dragon or giving it a value of 0 if its first time user
         public int Xp
         {
             get
@@ -50,6 +54,7 @@ namespace Dragonite.Objects
 
         }
 
+        //give food function to give dragon xp
         public void giveFood()
         {
             Xp += 200;
