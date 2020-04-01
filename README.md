@@ -16,6 +16,10 @@
 2. Open the project
 #### Use Open Worspace in Visual Studio
 
+3. Recommended Devices 
+* Iphone 8 plus
+* Pixel 2xl
+
 ## Unit Tests
 #### These are all the unit tests that can be run on this system
 
