@@ -115,12 +115,8 @@
     </ImageAsset>
     <ImageAsset Include="Assets.xcassets\dragonite_logo.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\dragonite_logo.imageset\Dragonite_Logo.png" />
-    <ImageAsset Include="Assets.xcassets\dragon_home.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\dragon_home.imageset\Home_Dragon.png" />
     <ImageAsset Include="Assets.xcassets\start_btn.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\start_btn.imageset\start_btn.png" />
-    <ImageAsset Include="Assets.xcassets\heat_egg.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\heat_egg.imageset\fire copy.png" />
     <ImageAsset Include="Assets.xcassets\food.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\food.imageset\food.png" />
     <ImageAsset Include="Assets.xcassets\train.imageset\Contents.json" />
@@ -148,14 +144,6 @@
     <ImageAsset Include="Assets.xcassets\night_background.imageset\night_background.png" />
     <ImageAsset Include="Assets.xcassets\hunt_background.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\hunt_background.imageset\hunt_background.png" />
-    <ImageAsset Include="Assets.xcassets\200xp_btn.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\200xp_btn.imageset\200xp_btn copy.png" />
-    <ImageAsset Include="Assets.xcassets\breathe_fire.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\breathe_fire.imageset\fire.png" />
-    <ImageAsset Include="Assets.xcassets\flying.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\flying.imageset\fantasy.png" />
-    <ImageAsset Include="Assets.xcassets\strength.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\strength.imageset\dumbbell.png" />
     <ImageAsset Include="Assets.xcassets\intro_1.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\intro_1.imageset\intro_1.png" />
     <ImageAsset Include="Assets.xcassets\intro_2.imageset\Contents.json" />
@@ -164,7 +152,16 @@
     <ImageAsset Include="Assets.xcassets\intro_3.imageset\intro_3.png" />
     <ImageAsset Include="Assets.xcassets\intro_4.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\intro_4.imageset\intro_4.png" />
+    <ImageAsset Include="Assets.xcassets\heat_egg.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\heat_egg.imageset\heat_egg.png" />
+    <ImageAsset Include="Assets.xcassets\train_btn.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\train_btn.imageset\train_btn.png" />
+    <ImageAsset Include="Assets.xcassets\breathe_fire.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\breathe_fire.imageset\breathe_fire.png" />
+    <ImageAsset Include="Assets.xcassets\flying.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\flying.imageset\flying.png" />
+    <ImageAsset Include="Assets.xcassets\strength.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\strength.imageset\strength.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -209,7 +206,6 @@
     <Folder Include="Assets.xcassets\dragon_background.imageset\" />
     <Folder Include="Assets.xcassets\night_background.imageset\" />
     <Folder Include="Assets.xcassets\hunt_background.imageset\" />
-    <Folder Include="Assets.xcassets\200xp_btn.imageset\" />
     <Folder Include="Assets.xcassets\breathe_fire.imageset\" />
     <Folder Include="Assets.xcassets\flying.imageset\" />
     <Folder Include="Assets.xcassets\strength.imageset\" />
@@ -217,5 +213,11 @@
     <Folder Include="Assets.xcassets\intro_2.imageset\" />
     <Folder Include="Assets.xcassets\intro_3.imageset\" />
     <Folder Include="Assets.xcassets\intro_4.imageset\" />
+    <Folder Include="Assets.xcassets\heat_egg.imageset\" />
+    <Folder Include="Assets.xcassets\200xp_btn.imageset\" />
+    <Folder Include="Assets.xcassets\train_btn.imageset\" />
+    <Folder Include="Assets.xcassets\breathe_fire.imageset\" />
+    <Folder Include="Assets.xcassets\flying.imageset\" />
+    <Folder Include="Assets.xcassets\strength.imageset\" />
   </ItemGroup>
 </Project>

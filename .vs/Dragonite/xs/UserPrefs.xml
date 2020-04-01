@@ -1,24 +1,20 @@
 ﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{43F8AE37-361D-4E73-93B2-8640BF9F848B}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.Workbench>
-    <Files>
-      <File FileName="Dragonite/Objects/Egg.cs" Line="38" Column="1" IsPinned="True" />
-      <File FileName="Dragonite/Grow_Dragon.xaml" Line="52" Column="116" />
-      <File FileName="Dragonite/Grow_Dragon.xaml.cs" Line="165" Column="10" />
-    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Dragonite" expanded="True">
             <Node name="Dragonite" expanded="True">
-              <Node name="Objects" expanded="True" />
-              <Node name="Grow_Dragon.xaml" expanded="True" />
+              <Node name="Objects" expanded="True">
+                <Node name="Egg.cs" selected="True" />
+              </Node>
             </Node>
             <Node name="Dragonite.Android" expanded="True">
-              <Node name="Resources" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+              </Node>
             </Node>
-            <Node name="Dragonite.iOS" expanded="True">
-              <Node name="Assets.xcassets" selected="True" />
-            </Node>
+            <Node name="Dragonite.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
