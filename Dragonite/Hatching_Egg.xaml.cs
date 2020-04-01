@@ -41,7 +41,7 @@ namespace Dragonite
         }
 
         // displaying the tempreature of the egg
-        void UpdateUI()
+        public void UpdateUI()
         {
 
             int eggXp = egg.Xp;
@@ -49,6 +49,7 @@ namespace Dragonite
             if (eggXp < 15)
             {
                 tempLabel.Text = "YOUR EGG IS TOO COLD !";
+                
             }
             else if (eggXp > 35)
             {

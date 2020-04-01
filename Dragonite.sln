@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dragonite.iOS", "Dragonite.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dragonite", "Dragonite\Dragonite.csproj", "{AEBEF0FC-C050-40A5-89D5-BF9050E16710}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragoniteTests", "DragoniteTests\DragoniteTests.csproj", "{59D13DB3-2D19-44DE-8F83-B77C5335128D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,18 @@ Global
 		{AEBEF0FC-C050-40A5-89D5-BF9050E16710}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{AEBEF0FC-C050-40A5-89D5-BF9050E16710}.Release|iPhone.ActiveCfg = Release|Any CPU
 		{AEBEF0FC-C050-40A5-89D5-BF9050E16710}.Release|iPhone.Build.0 = Release|Any CPU
+		{59D13DB3-2D19-44DE-8F83-B77C5335128D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59D13DB3-2D19-44DE-8F83-B77C5335128D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59D13DB3-2D19-44DE-8F83-B77C5335128D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59D13DB3-2D19-44DE-8F83-B77C5335128D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59D13DB3-2D19-44DE-8F83-B77C5335128D}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{59D13DB3-2D19-44DE-8F83-B77C5335128D}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{59D13DB3-2D19-44DE-8F83-B77C5335128D}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{59D13DB3-2D19-44DE-8F83-B77C5335128D}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{59D13DB3-2D19-44DE-8F83-B77C5335128D}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{59D13DB3-2D19-44DE-8F83-B77C5335128D}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{59D13DB3-2D19-44DE-8F83-B77C5335128D}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{59D13DB3-2D19-44DE-8F83-B77C5335128D}.Release|iPhone.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0

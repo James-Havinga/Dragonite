@@ -6,7 +6,7 @@ namespace Dragonite.Objects
         healthy,
         dead
     }
-    class DragonStates
+    public class DragonStates
     {
 
         // Difffernt possible states the dragon can have
