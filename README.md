@@ -14,7 +14,7 @@
 > git clone https://github.com/James-Havinga/Dragonite.git
 
 2. Open the project
-#### Use Open Worspace in Visual Studio
+> Use Open Worspace in Visual Studio
 
 3. Recommended Devices 
 * Iphone 8 plus
