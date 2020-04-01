@@ -1,8 +1,7 @@
 <!-- Headings -->
 # Dragonite
 #### Enjoy raising your very own virtual dragon with this cross-platform app built using C# and Xamarin Forms.
-![Dragon](https://drive.google.com/file/d/1_5TzD8flMmEgTV4cvDf4galG81aWE4pP/view?usp=sharing)
-![Egg](https://drive.google.com/file/d/1qtN9fuvp0wyngt2LBwmOGXnUx7GvDGsR/view?usp=sharing)
+
 
 ## Getting Started
 #### These instructions will get you a copy of the project up and running on your local machine for development and testing purposes
